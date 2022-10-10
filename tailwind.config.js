@@ -30,6 +30,7 @@ module.exports = {
       dangerColor: "var(--danger-color)",
       lightColor: "var(--light-color)",
       darkColor: "var(--dark-color)",
+      hoverLight: "var(--hover-light)",
     },
     screens: {
       'bXS': '0px',

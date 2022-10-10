@@ -3,14 +3,14 @@ import React from 'react'
 export default function TopBar() {
 
     const styles = {
-        wrapper: 'h-[6rem] hidden bLG:block',
+        wrapper: 'h-[5rem] hidden bLG:block',
         container: 'mt-[1rem] text-[#656565]',
         row: 'flex place-items-center justify-between',
-        dataContainer: 'flex justify-center text-[1.2rem] gap-[0.5rem]',
-        content: 'flex pl-[6rem] gap-[1rem] justify-center place-items-center',
-        socialContainer: 'pr-[6rem]',
+        dataContainer: 'flex justify-center text-[1rem] gap-[0.5rem]',
+        content: 'flex pl-[2.5rem] gap-[1rem] justify-center place-items-center',
+        socialContainer: 'pr-[2.5rem]',
         socials: 'flex gap-[2rem] justify-center place-items-center',
-        social: 'text-[1.2rem] text-primaryColor hover:text-primaryDarkColor'
+        social: 'text-[1rem] text-primaryColor hover:text-primaryDarkColor'
     }
 
     return (
