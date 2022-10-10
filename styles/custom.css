@@ -1,0 +1,7 @@
+.active__link {
+    @apply text-primaryColor;
+}
+
+.show__navbar {
+    display: block;
+}

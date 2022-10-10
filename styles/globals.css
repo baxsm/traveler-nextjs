@@ -1,20 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+:root,
+.root,
+#root,
+#docs-root {
+  --blue-color: #007bff;
+  --indigo-color: #6610f2;
+  --purple-color: #6f42c1;
+  --pink-color: #e83e8c;
+  --red-color: #dc3545;
+  --orange-color: #fd7e14;
+  --yellow-color: #ffc107;
+  --green-color: #28a745;
+  --teal-color: #20c997;
+  --cyan-color: #17a2b8;
+  --white-color: #fff;
+  --gray-color: #6c757d;
+  --gray-dark-color: #343a40;
+  --primary-color: #7AB730;
+  --primary-dark-color: #527a20;
+  --secondary-color: #f4faec;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: #FFFFFF;
+  --dark-color: #212121;
 }
 
 * {
   box-sizing: border-box;
 }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
