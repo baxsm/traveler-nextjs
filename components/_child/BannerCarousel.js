@@ -27,7 +27,7 @@ export default function BannerCarousel() {
                     {
                         carouselData.map((item, index) => {
                             return (
-                                <SwiperSlide>
+                                <SwiperSlide key={index}>
                                     <Slide data={item}></Slide>
                                 </SwiperSlide>
                             )
@@ -42,11 +42,11 @@ export default function BannerCarousel() {
 
 function Slide({ data }) {
     return (
-        <div className="carousel-item">
+        <div className="carousel-item relative w-full">
             <Image 
                 layout='fill'
                 src={data.source}
-                className={"object-contain w-full relative h-max"}
+                className={"object-contain w-full relative h-max carousel_img"}
             />
             <div className="grid place-items-center justify-center relative">
                 <div className="p-3 flex flex-col place-items-center justify-center">
