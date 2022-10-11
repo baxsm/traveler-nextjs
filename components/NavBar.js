@@ -49,8 +49,6 @@ export default function NavBar() {
         }
     }
 
-    console.log(navList);
-
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
