@@ -3,7 +3,7 @@ import React from 'react'
 export default function TopBar() {
 
     const styles = {
-        wrapper: 'h-[5rem] hidden bLG:block',
+        wrapper: 'hidden bLG:block',
         container: 'mt-[1rem] text-[#656565]',
         row: 'flex place-items-center justify-between',
         dataContainer: 'flex justify-center text-[1rem] gap-[0.5rem]',

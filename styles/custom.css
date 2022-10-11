@@ -6,9 +6,11 @@
     display: block;
 }
 
-.carousel_img {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
+.booking__shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.booking__border {
+    border: 1px solid #ced4da;
+    outline: none;
 }

@@ -31,6 +31,7 @@
   --light-color: #FFFFFF;
   --dark-color: #212121;
   --hover-light: #f8f9fa;
+  --background-light-black: #00000080;
 }
 
 * {
@@ -52,5 +53,8 @@ a {
 
 button {
   cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 

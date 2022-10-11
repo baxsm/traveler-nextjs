@@ -7,14 +7,15 @@ import { navList } from './_child/NavList';
 export default function NavBar() {
 
     const styles = {
-        container: 'p-[1rem] bLG:fixed bLG:top-[3.2rem] bg-[#fff] bLG:ml-auto bLG:mr-auto bLG:left-[0] bLG:inset-x-0 bLG:ml-[2rem] bLG:mr-[2rem] bLG:p-[1rem] bXL:ml-[6rem] bXL:mr-[6rem] ',
+        wrapper: 'bLG:h-[3.3rem]',
+        container: 'p-[1rem] bLG:relative bLG:top-[0.5rem] bg-[#fff] bLG:ml-auto bLG:mr-auto bLG:left-[0] bLG:inset-x-0 bLG:ml-[2rem] bLG:mr-[2rem] bLG:p-[1rem] bXL:ml-[6rem] bXL:mr-[6rem] z-10',
         navbar: 'flex flex-wrap justify-between place-items-center bLG:flex-nowrap ',
         navbarBrand: 'bLG:ml-[2rem]',
         logo: 'text-[2.2rem] font-[700] text-primaryColor',
         logoSpan: 'text-darkColor',
         navBarToggleButton: 'text-[1.5rem] text-[#787878] p-0 m-0 hover:text-darkColor bLG:hidden',
         navBarToggleMenuIcon: 'ri-menu-2-fill ',
-        navbarMenuContainer: 'basis-[100%] pt-[0.5rem] pb-[1rem] pl-[2rem] pr-[2rem] bLG:block bLG:basis-0 bLG:p-[1rem]',
+        navbarMenuContainer: 'basis-[100%] pt-[0.5rem] bLG:pb-[1rem] pl-[2rem] pr-[2rem] bLG:block bLG:basis-0 bLG:p-[1rem]',
         navBarhideMenu: 'basis-[100%] pt-[0.5rem] pb-[1rem] pl-[2rem] pr-[2rem] bLG:block bLG:basis-0 bLG:p-[1rem] hidden bLG:block',
         navbarMenu: 'nav__list flex flex-col bLG:flex-row bLG:justify-center bLG:place-items-center bLG:gap-[2rem]',
         navLink: 'hover:text-primaryColor font-[500] pb-[1.2rem] bLG:pb-0 bLG:whitespace-nowrap',

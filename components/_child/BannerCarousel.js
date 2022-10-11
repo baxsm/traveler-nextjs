@@ -42,17 +42,21 @@ export default function BannerCarousel() {
 
 function Slide({ data }) {
     return (
-        <div className="carousel-item relative w-full">
-            <Image 
-                layout='fill'
-                src={data.source}
-                className={"object-contain w-full relative h-max carousel_img"}
-            />
-            <div className="grid place-items-center justify-center relative">
-                <div className="p-3 flex flex-col place-items-center justify-center">
-                    <h4 className="text-[#fff] uppercase mb-3">{data.title}</h4>
-                    <h1 className="mb-3">{data.header}</h1>
-                    <a className="bg-primaryColor py-3 px-5 mt-2">Book Now</a>
+        <div className="relative">
+            <div className="relative">
+                <Image
+                    width={500}
+                    height={270}
+                    layout='responsive'
+                    src={data.source}
+                    className="object-cover"
+                />
+            </div>
+            <div className="grid place-items-center justify-center absolute top-0 left-0 right-0 bottom-0 bg-backgroundLightBlack">
+                <div className="p-3 flex flex-col place-items-center justify-center text-center max-w-[900px]">
+                    <h4 className="text-[#fff] uppercase mb-3 text-[18px] font-[600] bLG:text-[1.5rem]">{data.title}</h4>
+                    <h1 className="mb-3 font-[700] text-[#fff] text-[30px] bLG:text-[4rem]">{data.header}</h1>
+                    <a className="bg-primaryColor py-[0.375rem] px-[0.75rem] mt-2 text-[#fff] bLG:py-[1rem] bLG:px-[3rem]">Book Now</a>
                 </div>
             </div>
         </div>
