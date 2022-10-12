@@ -4,6 +4,8 @@
 
 ###### Tailwind
 
+###### Cloudinary
+
 ```bash
 npm run dev
 # or

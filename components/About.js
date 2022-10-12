@@ -21,7 +21,7 @@ export default function About() {
         contentImage: 'w-full h-full object-cover',
         submitButton: 'px-[0.8rem] py-[0.5rem] bg-primaryColor text-[#fff]',
     }
-
+ 
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
