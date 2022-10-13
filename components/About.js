@@ -4,24 +4,23 @@ import Image from 'next/image'
 export default function About() {
 
     const styles = {
-        wrapper: 'py-5',
-        container: 'pt-5 grid place-items-center max-w-[540px] mx-auto my-0',
-        mainRow: '',
-        column: 'min-h-[500px]',
-        imageContainer: 'mx-[2rem]',
-        coverImageContainer: 'relative h-full',
-        coverImage: 'absolute w-full h-full object-cover h-[500px]',
-        contentContainer: 'mt-6',
-        content: 'bg-[#fff] mt-[3rem] mx-[2rem] p-[1.5rem]',
+        wrapper: 'py-[1rem] px-[10px]',
+        container: 'pt-5 grid place-items-center max-w-[540px] mx-auto my-0 bMD:max-w-[720px] bLG:max-w-[960px] bXL:max-w-[1140px]',
+        mainRow: 'bLG:flex bLG:flex-row bLG:gap-[1rem]',
+        imageContainer: 'mx-[1.2rem]',
+        coverImageContainer: 'relative',
+        coverImage: 'object-cover',
+        contentContainer: 'mt-6 bLG:z-20 min-w-[540px] bLG:ml-[-120px] bXL:mt-[3rem]',
+        content: 'bg-[#fff] mt-[3rem] mx-[1.2rem] p-[1.5rem] bLG:p-[3rem]',
         contentTitle: 'tracking-[5px] uppercase text-primaryColor font-[500] mb-[0.5rem]',
-        contentSubtitle: 'mb-[1rem] font-[700] text-[calc(1.375rem+1.5vw)]',
+        contentSubtitle: 'mb-[1rem] font-[700] text-[calc(1.375rem+1.5vw)] bXL:text-[2.5rem]',
         contentBrief: 'mb-[1rem] text-[#656565]',
         contentRow: 'flex flex-row mx-[-15px] mb-[2rem]',
         contentImageContainer: 'px-[15px] w-full',
         contentImage: 'w-full h-full object-cover',
-        submitButton: 'px-[0.8rem] py-[0.5rem] bg-primaryColor text-[#fff]',
+        submitButton: 'px-[0.8rem] py-[0.5rem] bg-primaryColor text-[#fff] hover:bg-primaryDarkColor',
     }
- 
+
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
