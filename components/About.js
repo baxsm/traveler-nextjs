@@ -8,7 +8,7 @@ export default function About() {
         container: 'pt-5 grid place-items-center max-w-[540px] mx-auto my-0 bMD:max-w-[720px] bLG:max-w-[960px] bXL:max-w-[1140px]',
         mainRow: 'bLG:flex bLG:flex-row bLG:gap-[1rem]',
         imageContainer: 'mx-[1.2rem]',
-        coverImageContainer: 'relative',
+        coverImageContainer: 'relative bLG:min-w-[500px]',
         coverImage: 'object-cover',
         contentContainer: 'mt-6 bLG:z-20 min-w-[540px] bLG:ml-[-120px] bXL:mt-[3rem]',
         content: 'bg-[#fff] mt-[3rem] mx-[1.2rem] p-[1.5rem] bLG:p-[3rem]',
