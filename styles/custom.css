@@ -8,10 +8,11 @@
 
 @media screen and (max-width: 575px) {
     .container {
-        @apply max-w-full;
+        @apply max-w-full; /* important */
     }
 }
 
+/* Booking */
 
 .booking__shadow {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -21,6 +22,8 @@
     border: 1px solid #ced4da;
     outline: none;
 }
+
+/* Destination */
 
 .destination-item img {
     transition: .5s;
@@ -52,4 +55,31 @@
     bottom: 0px;
     left: 0px;
     border-width: 30px;
+}
+
+/* Services */
+
+.service-item {
+    transition: .5s;
+}
+
+.service-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.service-item i {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #7AB730;
+    background: #FFFFFF;
+    color: #7AB730;
+    transition: .5s;
+}
+
+.service-item:hover i {
+    background: #7AB730;
+    color: #FFFFFF;
 }

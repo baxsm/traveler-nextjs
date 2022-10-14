@@ -6,6 +6,8 @@
 
 ###### Cloudinary
 
+###### Bootstrap
+
 ```bash
 npm run dev
 # or
