@@ -6,6 +6,9 @@ import Format from '../layout/format'
 import Destination from '../components/Destination'
 import Services from '../components/Services'
 import Packages from '../components/Packages'
+import Registration from '../components/Registration'
+import Team from '../components/Team'
+import Testimonial from '../components/Testimonial'
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
       <Destination></Destination>
       <Services></Services>
       <Packages></Packages>
+      <Registration></Registration>
+      <Team></Team>
+      <Testimonial></Testimonial>
     </Format>
   )
 }

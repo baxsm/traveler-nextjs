@@ -8,6 +8,8 @@
 
 ###### Bootstrap
 
+###### Swiper
+
 ```bash
 npm run dev
 # or
