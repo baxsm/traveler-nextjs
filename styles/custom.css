@@ -6,11 +6,49 @@
     display: block;
 }
 
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (max-width: 575px) {
     .container {
-        @apply max-w-full; /* important */
+        @apply max-w-full;
+        /* important */
     }
 }
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1140px;
+    }
+  }
 
 /* Booking */
 
@@ -82,4 +120,14 @@
 .service-item:hover i {
     background: #7AB730;
     color: #FFFFFF;
+}
+
+/* Packages */
+
+.package-item {
+    transition: .5s;
+}
+
+.package-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
 }

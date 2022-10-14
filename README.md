@@ -4,7 +4,7 @@
 
 ###### Tailwind
 
-###### Cloudinary
+###### Cloudinary & ImgBB
 
 ###### Bootstrap
 

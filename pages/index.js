@@ -5,6 +5,7 @@ import BannerCarousel from '../components/BannerCarousel'
 import Format from '../layout/format'
 import Destination from '../components/Destination'
 import Services from '../components/Services'
+import Packages from '../components/Packages'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Feature></Feature>
       <Destination></Destination>
       <Services></Services>
+      <Packages></Packages>
     </Format>
   )
 }
