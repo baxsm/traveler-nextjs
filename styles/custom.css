@@ -14,3 +14,11 @@
     border: 1px solid #ced4da;
     outline: none;
 }
+
+.container-fluid {
+    @apply w-full;
+}
+
+.container {
+    @apply px-[15px] max-w-full bSM:max-w-[540px] bMD:max-w-[720px] bLG:max-w-[960px] bXL:max-w-[1140px];
+}

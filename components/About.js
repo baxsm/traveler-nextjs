@@ -10,7 +10,7 @@ export default function About() {
         imageContainer: 'mx-[1.2rem]',
         coverImageContainer: 'relative bLG:min-w-[500px]',
         coverImage: 'object-cover',
-        contentContainer: 'mt-6 bLG:z-20 min-w-[540px] bLG:ml-[-120px] bXL:mt-[3rem]',
+        contentContainer: 'mt-6 bLG:z-20 bSM:min-w-[540px] bLG:ml-[-120px] bXL:mt-[3rem]',
         content: 'bg-[#fff] mt-[3rem] mx-[1.2rem] p-[1.5rem] bLG:p-[3rem]',
         contentTitle: 'tracking-[5px] uppercase text-primaryColor font-[500] mb-[0.5rem]',
         contentSubtitle: 'mb-[1rem] font-[700] text-[calc(1.375rem+1.5vw)] bXL:text-[2.5rem]',
