@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Footer() {
 
@@ -18,9 +19,9 @@ export default function Footer() {
             <div className={styles.footerContentWrapper}>
                 <div className={styles.contentRow}>
                     <div className={styles.contentColumn}>
-                        <a className={styles.navBarBrand}>
-                            <h1 className="text-primaryColor"><span className="text-[#fff]">TRAVEL</span>ER</h1>
-                        </a>
+                        <Link href="#" className={styles.navBarBrand}>
+                            <h1 className="text-primaryColor cursor-pointer"><span className="text-[#fff] decoration-none">TRAVEL</span>ER</h1>
+                        </Link>
                         <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed
                             vero lorem dolor dolor</p>
                         <h6 className="text-[#fff] text-uppercase mt-4 mb-3 tracking-[5px]">Follow Us</h6>
@@ -58,7 +59,7 @@ export default function Footer() {
                     <div className={styles.contentColumn}>
                         <h5 className={styles.footerHeaderTitle}>Contact Us</h5>
                         <p className='mb-[1rem]'><i className="ri-map-pin-fill mr-2"></i>123 Street, New York, USA</p>
-                        <p className='mb-[1rem]'><i className="ri-phone-fill mr-2"></i>+012 345 67890</p>
+                        <p className='mb-[1rem]'><i className="ri-phone-fill mr-2"></i>+92 123 1234567</p>
                         <p className='mb-[1rem]'><i className="ri-mail-fill mr-2"></i>info@example.com</p>
                         <h6 className="text-[#fff] uppercase mt-4 mb-3 tracking-[5px]">Newsletter</h6>
                         <div className="w-100">

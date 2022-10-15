@@ -504,3 +504,71 @@ select.form-control:focus::-ms-value {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/demo/image/fetch/https://i.ibb.co/L5PgJ5C/carousel-2.jpg'), no-repeat center center;
     background-size: cover;
 }
+
+/* Contact */
+
+select.form-control[size],
+select.form-control[multiple] {
+    height: auto;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.form-row>.col,
+.form-row>[class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+}
+
+.form-check-input[disabled]~.form-check-label,
+.form-check-input:disabled~.form-check-label {
+    color: #6c757d;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+}
+
+.form-check-inline {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 0.75rem;
+}
+
+.form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: 0.3125rem;
+    margin-left: 0;
+}

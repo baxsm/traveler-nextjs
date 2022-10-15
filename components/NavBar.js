@@ -4,7 +4,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { navList } from './_data/NavList';
 
-export default function NavBar() {
+export default function NavBar({ selectedLink }) {
 
     const styles = {
         wrapper: 'bLG:h-[3.3rem]',
@@ -25,7 +25,7 @@ export default function NavBar() {
         dropIconShow: 'ri-arrow-down-s-fill text-[0.6rem]',
         dropIconHide: 'ri-arrow-up-s-fill text-[0.6rem]',
         navDropMenu: 'flex flex-col pb-[0.4rem] bLG:absolute bLG:bg-[#fff] bLG:top-[5rem] bLG:right-[4.2rem] bLG:p-[0.5rem]',
-        hideDropMenu: 'flex flex-col pb-[0.4rem] bLG:absolute bLG:bg-[#fff] bLG:top-[5rem] bLG:right-[4.2rem] bLG:p-[0.5rem] hidden'
+        hideDropMenu: 'flex flex-col pb-[0.4rem] bLG:absolute bLG:bg-[#fff] bLG:top-[5rem] bLG:right-[4.2rem] bLG:p-[0.5rem] hidden',
     }
 
     const [navMenuActive, setNavMenuActive] = useState(null);
