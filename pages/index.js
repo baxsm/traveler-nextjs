@@ -10,8 +10,27 @@ import Registration from '../components/Registration'
 import Team from '../components/Team'
 import Testimonial from '../components/Testimonial'
 import Blog from '../components/Blog'
+import { useEffect } from 'react'
 
 export default function Home() {
+
+  useEffect(function mount() {
+    const scrollUpButton = document.getElementById('scroll-up');
+
+    function onScroll() {
+      if (this.scrollY >= 200) {
+        scrollUpButton.classList.add('show-scroll');
+      }
+      else {
+        scrollUpButton.classList.remove('show-scroll');
+      }
+    }
+    window.addEventListener("scroll", onScroll);
+
+    return function unMount() {
+      window.removeEventListener("scroll", onScroll);
+    };
+  });
   return (
     <Format title="Home">
       <BannerCarousel></BannerCarousel>

@@ -682,3 +682,41 @@ a.badge-primary.focus {
 .media-body {
     flex: 1;
 }
+
+/* Back to Top */
+.btn-lg,
+.btn-group-lg>.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.scrollup {
+    @apply fixed right-[35px] bottom-[-20%] flex bg-primaryColor rounded-[0.15rem] opacity-[9] z-[10] duration-[0.4s];
+}
+
+.scrollup__icon {
+    @apply text-whiteColor text-[1.35rem];
+}
+
+.scrollup:hover {
+    @apply bg-primaryDarkColor opacity-[1];
+}
+
+.show-scroll {
+    @apply bottom-[35px];
+}
