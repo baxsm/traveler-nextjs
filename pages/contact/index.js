@@ -5,11 +5,11 @@ import Format from '../../layout/format'
 import Contact from '../../components/Contact'
 
 export default function index() {
-  return (
-    <Format title="Contact">
-        <Banner pageTitle="Contact" />
-        <Booking />
-        <Contact />
-    </Format>
-  )
+    return (
+        <Format title="Contact">
+            <Banner pageTitle="Contact" />
+            <Booking />
+            <Contact />
+        </Format>
+    )
 }

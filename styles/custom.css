@@ -576,3 +576,98 @@ textarea.form-control {
     margin-right: 0.3125rem;
     margin-left: 0;
 }
+
+/* Category */
+
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #7AB730;
+}
+
+a.badge-primary:hover,
+a.badge-primary:focus {
+    color: #fff;
+    background-color: #5f8f25;
+}
+
+a.badge-primary:focus,
+a.badge-primary.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.5);
+}
+
+/* Tags */
+
+.btn-light {
+    color: #212529;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.btn-light:hover {
+    color: #212529;
+    background-color: #ececec;
+    border-color: #e6e6e6;
+}
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #7AB730;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #527a20;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.25);
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #7AB730;
+    border-color: #7AB730;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+/* Category */
+.categoryLink a:hover span {
+    text-decoration: underline;
+}
