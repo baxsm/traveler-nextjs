@@ -1,5 +1,5 @@
 import React from 'react'
-import { servicesData } from './_child/ServicesData'
+import { servicesData } from './_data/ServicesData'
 
 export default function Services() {
 

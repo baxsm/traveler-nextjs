@@ -9,6 +9,7 @@ import Packages from '../components/Packages'
 import Registration from '../components/Registration'
 import Team from '../components/Team'
 import Testimonial from '../components/Testimonial'
+import Blog from '../components/Blog'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Registration></Registration>
       <Team></Team>
       <Testimonial></Testimonial>
+      <Blog></Blog>
     </Format>
   )
 }

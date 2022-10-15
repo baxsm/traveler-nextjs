@@ -64,6 +64,23 @@
     }
 }
 
+/* NavBar */
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    text-decoration: none;
+}
+
 /* Booking */
 
 .booking__shadow {
@@ -427,4 +444,56 @@ select.form-control:focus::-ms-value {
 
 .testimonial-carousel .swiper-slide-active .testimonial-text {
     box-shadow: 0 0 30px #CCCCCC;
+}
+
+/* Blog */
+
+.blog-item {
+    transition: .5s;
+}
+
+.blog-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.blog-date {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #7AB730;
+}
+
+.blog-date::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -15px;
+    left: 0;
+    border: 8px solid;
+    border-color: transparent #5f8f25 #5f8f25 transparent;
+}
+
+/* Footer */
+
+.footer a:hover span {
+    text-decoration: underline;
+}
+
+.copyright-bg {
+    border-color: rgba(256, 256, 256, .1) !important;
+}
+
+.footer-input {
+    padding: 25px !important;
+}
+
+.footer-btn {
+    padding: 13px !important;
 }

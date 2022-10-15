@@ -2,7 +2,7 @@ import { data } from 'autoprefixer';
 import Link from 'next/link';
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { navList } from './_child/NavList';
+import { navList } from './_data/NavList';
 
 export default function NavBar() {
 

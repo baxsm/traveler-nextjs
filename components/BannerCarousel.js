@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Autoplay } from 'swiper';
-import { carouselData } from './_child/CarouselData';
+import { carouselData } from './_data/CarouselData';
 import Image from 'next/image';
 
 

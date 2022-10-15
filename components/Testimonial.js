@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from "swiper"
 import SwiperCore, { Autoplay } from 'swiper';
-import { testimonialData } from './_child/TestimonialData'
+import { testimonialData } from './_data/TestimonialData'
 
 export default function Testimonial() {
 

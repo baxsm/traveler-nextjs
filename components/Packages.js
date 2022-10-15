@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { packagesData } from './_child/PackagesData'
+import { packagesData } from './_data/PackagesData'
 
 export default function Packages() {
 

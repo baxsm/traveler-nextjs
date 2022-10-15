@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { destinationData } from './_child/DestinationData'
+import { destinationData } from './_data/DestinationData'
 
 export default function Destination() {
 

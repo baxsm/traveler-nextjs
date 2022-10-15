@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { teamData } from './_child/TeamData'
+import { teamData } from './_data/TeamData'
 
 export default function Team() {
     const styles = {

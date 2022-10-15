@@ -1,5 +1,5 @@
 import React from 'react'
-import { featureData } from './_child/FeatureData'
+import { featureData } from './_data/FeatureData'
 
 export default function Feature() {
 
