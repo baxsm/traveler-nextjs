@@ -92,6 +92,11 @@
     outline: none;
 }
 
+.booking-date {
+    padding: 0;
+    padding-left: 15px;
+}
+
 /* Destination */
 
 .destination-item img {

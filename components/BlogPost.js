@@ -24,9 +24,9 @@ export default function BlogPost({ item }) {
             </div>
             <div className={styles.content}>
                 <div className="d-flex mb-2">
-                    <a className="text-primaryColor uppercase text-decoration-none">{item.author}</a>
+                    <a className="text-primaryColor uppercase text-decoration-none hover:text-primaryDarkColor">{item.author}</a>
                     <span className="text-primaryColor px-2">|</span>
-                    <a className="text-primaryColor uppercase text-decoration-none">{item.category}</a>
+                    <a className="text-primaryColor uppercase text-decoration-none hover:text-primaryDarkColor">{item.category}</a>
                 </div>
                 <a className="h5 m-0 text-decoration-none hover:text-primaryDarkColor">{item.title}</a>
             </div>

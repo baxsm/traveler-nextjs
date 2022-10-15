@@ -18,7 +18,6 @@ export default function BannerCarousel() {
             <div className={styles.container}>
                 <Swiper
                     slidesPerView={1}
-                    spaceBetween={100}
                     loop={true}
                     autoplay={{
                         delay: 2000

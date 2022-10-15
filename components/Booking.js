@@ -13,7 +13,7 @@ export default function Booking() {
         element: 'w-full',
         selectElement: 'w-full h-[47px] mb-0 px-[1rem] h-[3rem] booking__border bg-[transparent] bLG:w-[9.3rem] bXL:w-[11.5rem]',
         dateElementWrapper: '',
-        dateElement: 'w-full p-[1.5rem] px-[1.3rem] booking__border h-[3rem] bLG:w-[9.3rem] bXL:w-[11.5rem]',
+        dateElement: 'w-full p-[1.5rem] px-[1.3rem] booking__border h-[3rem] bLG:w-[9.3rem] bXL:w-[11.5rem] booking-date',
         buttonElement: 'w-full py-[0.6rem] px-[0.75rem] bg-primaryColor border border-primaryColor text-[#fff] m-0 text-center select-none font-[400] hover:bg-[#669928] hover:border-[#5f8f25] bLG:py-[0.7rem] bLG:px-[2rem]',
     }
 
@@ -37,14 +37,14 @@ export default function Booking() {
                                 <div className={styles.elementWrapper}>
                                     <div className={styles.element}>
                                         <div className={styles.dateElementWrapper} id="date1">
-                                            <input type="text" className={styles.dateElement} placeholder="Depart Date"/>
+                                            <input type="date" className={styles.dateElement} placeholder="Depart Date"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className={styles.elementWrapper}>
                                     <div className={styles.element}>
                                         <div className={styles.dateElementWrapper} id="date2">
-                                            <input type="text" className={styles.dateElement} placeholder="Return Date" />
+                                            <input type="date" className={styles.dateElement} placeholder="Return Date" />
                                         </div>
                                     </div>
                                 </div>

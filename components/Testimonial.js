@@ -15,7 +15,7 @@ export default function Testimonial() {
         cardContainer: 'text-center pb-4',
         image: 'img-fluid mx-auto w-full h-full',
         contentContainer: 'testimonial-text bg-[#fff] p-4 mt-[-3rem]',
-        carouselContainer: 'testimonial-carousel swiper'
+        carouselContainer: 'testimonial-carousel testimonialCaoursel'
     }
 
     SwiperCore.use([Autoplay])
@@ -29,30 +29,24 @@ export default function Testimonial() {
                     <h1>What Our Clients Say</h1>
                 </div>
                 <Swiper
-                    slidesPerView={3}
                     centeredSlides={true}
-                    spaceBetween={30}
-                    loopFillGroupWithBlank={true}
                     grabCursor={true}
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    loop={true}
                     pagination={{
                         clickable: true,
                         dynamicBullets: true,
                         dynamicMainBullets: 4,
                     }}
                     autoplay={{
-                        delay: 4000
+                        delay: 8000
                     }}
                     breakpoints= {{
-                        0: {
-                            slidesPerView: 1,
-                            dynamicBullets: false,
-                        },
-                        768: {
+                        992: {
                             slidesPerView: 3,
-                            dynamicBullets: true,
-                        }
+                        },
                     }}
-                    loop={true}
                     modules={[Pagination]}
                     className={styles.carouselContainer}
                 >
