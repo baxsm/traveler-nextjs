@@ -23,7 +23,7 @@ export default function Registration() {
         cardInputContainer: 'form-group',
         inputElement: 'form-control p-4',
         selectElement: 'custom-select px-4 h-[47px]',
-        signUpButton: 'btn text-[#fff] bg-primaryColor hover:bg-primaryDarkColor hover:text-[#fff] btn-block py-3 w-full',
+        signUpButton: 'text-[#fff] bg-primaryColor hover:bg-primaryDarkColor hover:text-[#fff] btn-block py-3 w-full',
     }
 
     return (

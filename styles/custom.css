@@ -497,3 +497,10 @@ select.form-control:focus::-ms-value {
 .footer-btn {
     padding: 13px !important;
 }
+
+/* Banner */
+
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/demo/image/fetch/https://i.ibb.co/L5PgJ5C/carousel-2.jpg'), no-repeat center center;
+    background-size: cover;
+}

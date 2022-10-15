@@ -12,7 +12,7 @@ export default function Services() {
         mainRow: 'row',
         element: 'col-lg-4 col-md-6 mb-4',
         content: 'service-item bg-white text-center mb-2 py-5 px-4',
-        contentIcon: 'mx-auto mb-4',
+        contentIcon: 'mx-auto mb-4 text-[2rem]',
         contentTitle: 'mb-2',
         contentSubTitle: 'm-0',
     }

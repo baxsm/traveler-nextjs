@@ -18,7 +18,7 @@ export default function About() {
         contentRow: 'flex flex-row mx-[-15px] mb-[2rem]',
         contentImageContainer: 'px-[15px] w-full',
         contentImage: 'w-full h-full object-cover',
-        submitButton: 'px-[0.8rem] py-[0.5rem] bg-primaryColor text-[#fff] hover:bg-primaryDarkColor',
+        submitButton: 'px-[0.8rem] py-[0.5rem] bg-primaryColor text-[#fff] hover:bg-primaryDarkColor hover:text-[#fff]',
     }
 
     return (
