@@ -42,6 +42,16 @@ export default function Testimonial() {
                     autoplay={{
                         delay: 4000
                     }}
+                    breakpoints= {{
+                        0: {
+                            slidesPerView: 1,
+                            dynamicBullets: false,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            dynamicBullets: true,
+                        }
+                    }}
                     loop={true}
                     modules={[Pagination]}
                     className={styles.carouselContainer}

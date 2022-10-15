@@ -3,8 +3,8 @@ import React from 'react'
 export default function Booking() {
 
     const styles = {
-        wrapper: 'mt-5 pb-5 bLG:relative bLG:place-items-center bLG:top-[-6.5rem] bLG:mx-auto bLG:my-0 bLG:z-10 bLG:max-w-[990px] bXL:max-w-[1140px]',
-        container: 'pb-5',
+        wrapper: 'mt-5 bLG:relative bLG:place-items-center bLG:top-[-6.5rem] bLG:mx-auto bLG:my-0 bLG:z-10 bLG:max-w-[990px] bXL:max-w-[1140px]',
+        container: '',
         dataContainer: 'p-[2rem] grid place-items-center bg-[#fff] my-[3rem] mx-[2rem] bSM:mx-[8rem] booking__shadow bLG:mx-[2rem] bXL:mx-[0.8rem]',
         columnContainer: 'flex flex-col gap-[1rem] place-items-center justify-center w-full bLG:flex-row bLG:gap-[2rem]',
         column: 'w-full',

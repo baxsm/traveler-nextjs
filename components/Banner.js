@@ -18,9 +18,9 @@ export default function Banner({ pageTitle }) {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h3 className={styles.title}>About</h3>
+                    <h3 className={styles.title}>{pageTitle}</h3>
                     <div className={styles.dataContainer}>
-                        <p className="m-0 uppercase"><a className="text-[#fff]" href="">Home</a></p>
+                        <p className="m-0 uppercase"><a className="text-[#fff] hover:text-[#fff] hover:underline" href="">Home</a></p>
                         <div className={styles.iconContainer}>
                             <i className={styles.leftIcon}></i>
                             <i className={styles.rightIcon}></i>
