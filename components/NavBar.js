@@ -21,7 +21,7 @@ export default function NavBar({ selectedLink }) {
         navLink: 'hover:text-primaryColor text-[#282828] font-[500] pb-[1.2rem] bLG:pb-0 bLG:whitespace-nowrap',
         dropMenuContainer: '',
         dropMenuToggle: 'hover:text-primaryColor text-[#282828] font-[500] pb-[1rem] flex place-items-center gap-[0.2rem] bLG:pb-0',
-        navDropLink: 'pl-[1rem] pb-[0.6rem] hover:text-primaryColor hover:bg-hoverLight whitespace-nowrap bLG:p-[0.5rem]',
+        navDropLink: 'pl-[1rem] pb-[0.6rem] text-[#282828] hover:text-primaryColor hover:bg-hoverLight whitespace-nowrap bLG:p-[0.5rem]',
         dropIconShow: 'ri-arrow-down-s-fill text-[0.6rem]',
         dropIconHide: 'ri-arrow-up-s-fill text-[0.6rem]',
         navDropMenu: 'flex flex-col pb-[0.4rem] bLG:absolute bLG:bg-[#fff] bLG:top-[5rem] bLG:right-[4.2rem] bLG:p-[0.5rem]',

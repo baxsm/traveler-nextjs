@@ -23,7 +23,7 @@ export default function CommentForm() {
                     <textarea id="message" cols="30" rows="5" className="form-control"></textarea>
                 </div>
                 <div className="form-group mb-0">
-                    <input type="submit" value="Leave a comment" className="btn btn-primary font-weight-semi-bold py-2 px-3"/>
+                    <input type="submit" value="Leave a comment" className="bg-primaryColor hover:bg-primaryDarkColor text-[#fff] font-weight-semi-bold py-2 px-3"/>
                 </div>
             </form>
         </div>

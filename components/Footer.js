@@ -66,7 +66,7 @@ export default function Footer() {
                             <div className="input-group">
                                 <input type="text" className="form-control border-light footer-input" placeholder="Your Email" />
                                 <div className="input-group-append">
-                                    <button className="btn btn-primary px-3 footer-btn">Sign Up</button>
+                                    <button className="bg-primaryColor hover:bg-primaryDarkColor text-[#fff] px-3 footer-btn">Sign Up</button>
                                 </div>
                             </div>
                         </div>
