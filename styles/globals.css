@@ -49,13 +49,13 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
 }
 
 button {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
   border: none;
   outline: none;
 }

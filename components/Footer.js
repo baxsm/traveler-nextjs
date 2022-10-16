@@ -4,9 +4,9 @@ import Link from 'next/link'
 export default function Footer() {
 
     const styles = {
-        footerContentWrapper: 'footer container-fluid bg-darkColor text-white-50 py-5 px-sm-3 px-lg-5 mt-[90px]',
+        footerContentWrapper: 'container-fluid bg-darkColor text-white-50 py-5 px-sm-3 px-lg-5 mt-[90px]',
         contentRow: 'row pt-5',
-        contentColumn: 'col-lg-3 col-md-6 mb-5',
+        contentColumn: 'col-lg-3 col-md-6 mb-5 footer',
         navBarBrand: 'navbar-brand',
         rightIconContainer1: 'text-white-50 mb-2 decoration-none flex place-items-center ml-[-10px]',
         rightIconContainer2: 'text-white-50 decoration-none flex place-items-center ml-[-10px]',
@@ -35,25 +35,25 @@ export default function Footer() {
                     <div className={styles.contentColumn}>
                         <h5 className={styles.footerHeaderTitle}>Our Services</h5>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>About</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Destination</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Services</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Packages</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Guides</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Testimonial</span></a>
-                            <a className={styles.rightIconContainer2} href="#"><i className={styles.rightIcon}></i><span>Blog</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">About</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Destination</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Services</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Packages</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Guides</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Testimonial</span></a>
+                            <a className={styles.rightIconContainer2} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Blog</span></a>
                         </div>
                     </div>
                     <div className={styles.contentColumn}>
                         <h5 className={styles.footerHeaderTitle}>Usefull Links</h5>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>About</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Destination</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Services</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Packages</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Guides</span></a>
-                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span>Testimonial</span></a>
-                            <a className={styles.rightIconContainer2} href="#"><i className={styles.rightIcon}></i><span>Blog</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">About</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Destination</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Services</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Packages</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Guides</span></a>
+                            <a className={styles.rightIconContainer1} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Testimonial</span></a>
+                            <a className={styles.rightIconContainer2} href="#"><i className={styles.rightIcon}></i><span className="footer-link">Blog</span></a>
                         </div>
                     </div>
                     <div className={styles.contentColumn}>

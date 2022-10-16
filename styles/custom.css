@@ -486,7 +486,7 @@ select.form-control:focus::-ms-value {
 
 /* Footer */
 
-.footer a:hover span {
+.footer-link:hover{
     text-decoration: underline;
 }
 
