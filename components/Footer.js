@@ -11,7 +11,7 @@ export default function Footer() {
         rightIconContainer1: 'text-white-50 mb-2 decoration-none flex place-items-center ml-[-10px]',
         rightIconContainer2: 'text-white-50 decoration-none flex place-items-center ml-[-10px]',
         rightIcon: 'ri-arrow-drop-right-line mr-2 text-[1.8rem] leading-[0] font-[900]',
-        footerHeaderTitle : 'text-white text-uppercase mb-4 tracking-[5px]',
+        footerHeaderTitle: 'text-white text-uppercase mb-4 tracking-[5px]',
     }
 
     return (
@@ -35,25 +35,25 @@ export default function Footer() {
                     <div className={styles.contentColumn}>
                         <h5 className={styles.footerHeaderTitle}>Our Services</h5>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className={styles.rightIconContainer1} href="/about"><i className={styles.rightIcon}></i><span className="footer-link">About</span></a>
-                            <a className={styles.rightIconContainer1} href="/destination"><i className={styles.rightIcon}></i><span className="footer-link">Destination</span></a>
-                            <a className={styles.rightIconContainer1} href="/services"><i className={styles.rightIcon}></i><span className="footer-link">Services</span></a>
-                            <a className={styles.rightIconContainer1} href="/packages"><i className={styles.rightIcon}></i><span className="footer-link">Packages</span></a>
-                            <a className={styles.rightIconContainer1} href="/guide"><i className={styles.rightIcon}></i><span className="footer-link">Guides</span></a>
-                            <a className={styles.rightIconContainer1} href="/testimonial"><i className={styles.rightIcon}></i><span className="footer-link">Testimonial</span></a>
-                            <a className={styles.rightIconContainer2} href="/blog"><i className={styles.rightIcon}></i><span className="footer-link">Blog</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">About</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Destination</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Services</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Packages</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Guides</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Testimonial</span></a>
+                            <a className={styles.rightIconContainer2}><i className={styles.rightIcon}></i><span className="footer-link">Blog</span></a>
                         </div>
                     </div>
                     <div className={styles.contentColumn}>
                         <h5 className={styles.footerHeaderTitle}>Usefull Links</h5>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className={styles.rightIconContainer1} href="/about"><i className={styles.rightIcon}></i><span className="footer-link">About</span></a>
-                            <a className={styles.rightIconContainer1} href="/destination"><i className={styles.rightIcon}></i><span className="footer-link">Destination</span></a>
-                            <a className={styles.rightIconContainer1} href="/services"><i className={styles.rightIcon}></i><span className="footer-link">Services</span></a>
-                            <a className={styles.rightIconContainer1} href="/packages"><i className={styles.rightIcon}></i><span className="footer-link">Packages</span></a>
-                            <a className={styles.rightIconContainer1} href="/guide"><i className={styles.rightIcon}></i><span className="footer-link">Guides</span></a>
-                            <a className={styles.rightIconContainer1} href="/testimonial"><i className={styles.rightIcon}></i><span className="footer-link">Testimonial</span></a>
-                            <a className={styles.rightIconContainer2} href="/blog"><i className={styles.rightIcon}></i><span className="footer-link">Blog</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">About</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Destination</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Services</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Packages</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Guides</span></a>
+                            <a className={styles.rightIconContainer1}><i className={styles.rightIcon}></i><span className="footer-link">Testimonial</span></a>
+                            <a className={styles.rightIconContainer2}><i className={styles.rightIcon}></i><span className="footer-link">Blog</span></a>
                         </div>
                     </div>
                     <div className={styles.contentColumn}>
