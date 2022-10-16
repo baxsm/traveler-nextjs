@@ -6,7 +6,7 @@ import Team from '../../components/Team'
 
 export default function index() {
   return (
-    <Format title="Guides">
+    <Format title="Guides" selected="/guides" isDropDown={true}>
         <Banner pageTitle="Guides"/>
         <Booking />
         <Team />

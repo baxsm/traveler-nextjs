@@ -7,7 +7,7 @@ import Testimonial from '../../components/Testimonial'
 
 export default function index() {
   return (
-    <Format title="Services">
+    <Format title="Services" selected="/services">
         <Banner pageTitle="Services"/>
         <Booking />
         <Services />

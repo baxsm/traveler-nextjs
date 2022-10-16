@@ -20,7 +20,7 @@ export default function index() {
     }
 
     return (
-        <Format title="Single">
+        <Format title="Single" selected="/single" isDropDown={true}>
             <Banner pageTitle="Single"/>
             <Booking />
             <div className={styles.wrapper}>

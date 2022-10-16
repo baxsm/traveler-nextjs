@@ -31,8 +31,10 @@ export default function Home() {
       window.removeEventListener("scroll", onScroll);
     };
   });
+
+  
   return (
-    <Format title="Home">
+    <Format title="Home" selected="/">
       <BannerCarousel></BannerCarousel>
       <Booking></Booking>
       <About></About>

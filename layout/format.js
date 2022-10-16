@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import TopBar from "../components/TopBar";
 
-export default function format({ title, children }) {
+export default function format({ selected, isDropDown, title, children }) {
 
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -14,8 +14,8 @@ export default function format({ title, children }) {
       <Head>
         <title>{title}</title>
       </Head>
-      <TopBar></TopBar>
-      <NavBar></NavBar>
+      <TopBar />
+      <NavBar selectedLink={selected} isDropDown={isDropDown}/>
       {children}
       <Footer></Footer>
       <a onClick={scrollToTop} className="scrollup" id="scroll-up">

@@ -7,7 +7,7 @@ import Destination from '../../components/Destination'
 
 export default function index() {
   return (
-    <Format title="Packages">
+    <Format title="Packages" selected="/packages">
         <Banner pageTitle="Packages"/>
         <Booking />
         <Packages />

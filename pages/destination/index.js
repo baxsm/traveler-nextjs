@@ -6,7 +6,7 @@ import Destination from '../../components/Destination'
 
 export default function index() {
   return (
-    <Format title="Destination">
+    <Format title="Destination" selected="/destination" isDropDown={true}>
         <Banner pageTitle="Destination"/>
         <Booking />
         <Destination />

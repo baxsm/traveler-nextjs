@@ -6,8 +6,8 @@ import Contact from '../../components/Contact'
 
 export default function index() {
     return (
-        <Format title="Contact">
-            <Banner pageTitle="Contact" />
+        <Format title="Contact" selected="/contact">
+            <Banner pageTitle="Contact"/>
             <Booking />
             <Contact />
         </Format>

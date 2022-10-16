@@ -9,7 +9,7 @@ import Team from '../../components/Team'
 
 export default function index() {
   return (
-    <Format title="About">
+    <Format title="About" selected="/about">
         <Banner pageTitle="About" />
         <Booking />
         <About />

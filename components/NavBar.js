@@ -4,7 +4,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { navList } from './_data/NavList';
 
-export default function NavBar({ selectedLink }) {
+export default function NavBar({ selectedLink, isDropDown }) {
 
     const styles = {
         wrapper: 'bLG:h-[3.3rem]',
@@ -19,9 +19,12 @@ export default function NavBar({ selectedLink }) {
         navBarhideMenu: 'basis-[100%] pt-[0.5rem] pb-[1rem] pl-[2rem] pr-[2rem] bLG:block bLG:basis-0 bLG:p-[1rem] hidden bLG:block',
         navbarMenu: 'nav__list flex flex-col bLG:flex-row bLG:justify-center bLG:place-items-center bLG:gap-[2rem]',
         navLink: 'hover:text-primaryColor text-[#282828] font-[500] pb-[1.2rem] bLG:pb-0 bLG:whitespace-nowrap',
+        activeNavLink: 'hover:text-primaryColor text-primaryColor font-[500] pb-[1.2rem] bLG:pb-0 bLG:whitespace-nowrap',
         dropMenuContainer: '',
         dropMenuToggle: 'hover:text-primaryColor text-[#282828] font-[500] pb-[1rem] flex place-items-center gap-[0.2rem] bLG:pb-0',
+        activeDropMenuToggle: 'hover:text-primaryColor text-primaryColor font-[500] pb-[1rem] flex place-items-center gap-[0.2rem] bLG:pb-0',
         navDropLink: 'pl-[1rem] pb-[0.6rem] text-[#282828] hover:text-primaryColor hover:bg-hoverLight whitespace-nowrap bLG:p-[0.5rem]',
+        activeNavDropLink: 'pl-[1rem] pb-[0.6rem] text-primaryColor hover:text-primaryColor hover:bg-hoverLight whitespace-nowrap bLG:p-[0.5rem]',
         dropIconShow: 'ri-arrow-down-s-fill text-[0.6rem]',
         dropIconHide: 'ri-arrow-up-s-fill text-[0.6rem]',
         navDropMenu: 'flex flex-col pb-[0.4rem] bLG:absolute bLG:bg-[#fff] bLG:top-[5rem] bLG:right-[4.2rem] bLG:p-[0.5rem]',
@@ -71,14 +74,21 @@ export default function NavBar({ selectedLink }) {
                                 if (item.dropdown == 0) {
                                     return (
                                         <Link href={item.href} key={index}>
-                                            <a className={styles.navLink}>{item.name}</a>
+                                            <a
+                                                className={selectedLink === item.href ? styles.activeNavLink : styles.navLink}
+                                            >
+                                                {item.name}
+                                            </a>
                                         </Link>
                                     )
                                 }
                                 else if (item.dropdown == 1) {
                                     return (
                                         <Link href={item.href} key={index}>
-                                            <a className={styles.dropMenuToggle} onClick={toggleDropMenuActive}>
+                                            <a
+                                                className={isDropDown ? styles.activeDropMenuToggle : styles.dropMenuToggle}
+                                                onClick={toggleDropMenuActive}
+                                            >
                                                 {item.name}
                                                 <i className={dropMenuActive ? styles.dropIconHide : styles.dropIconShow}></i>
                                             </a>
@@ -92,7 +102,11 @@ export default function NavBar({ selectedLink }) {
                                                 item.data.map((dropdownItem, dropIndex) => {
                                                     return (
                                                         <Link href={dropdownItem.href} key={dropIndex}>
-                                                            <a className={styles.navDropLink}>{dropdownItem.name}</a>
+                                                            <a
+                                                                className={selectedLink === dropdownItem.href ? styles.activeNavDropLink : styles.navDropLink}
+                                                            >
+                                                                {dropdownItem.name}
+                                                            </a>
                                                         </Link>
                                                     )
                                                 })

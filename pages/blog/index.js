@@ -14,8 +14,8 @@ import Pagination from '../../components/_child/Pagination'
 
 export default function index() {
     return (
-        <Format title="Blog">
-            <Banner pageTitle="Blog" />
+        <Format title="Blog" selected="/blog" isDropDown={true}>
+            <Banner pageTitle="Blog"/>
             <Booking />
             <div className="container-fluid py-5">
                 <div className="container py-5">

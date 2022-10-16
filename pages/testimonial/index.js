@@ -6,7 +6,7 @@ import Testimonial from '../../components/Testimonial'
 
 export default function index() {
   return (
-    <Format title="Testimonial">
+    <Format title="Testimonial" selected="/testimonial" isDropDown={true}>
         <Banner pageTitle="Testimonial"/>
         <Booking />
         <Testimonial />
