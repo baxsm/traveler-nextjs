@@ -42,7 +42,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   background-color: #F3F3F3 !important;
   scroll-behavior: smooth;
   user-select: none;
@@ -51,6 +51,10 @@ body {
 a {
   text-decoration: none !important;
   cursor: pointer;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 button {
@@ -271,3 +275,5 @@ h2 {
 .show>.btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(142, 194, 79, 0.5);
 }
+
+/* Production Fixes */

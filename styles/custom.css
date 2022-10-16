@@ -180,15 +180,16 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #fff !important;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
 }
 
 .card-header {
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 0;
+    padding: 0.75rem 1.25rem !important;
+    margin-bottom: 0 !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #7AB730 !important;
 }
 
 .card-body {
@@ -273,7 +274,7 @@ select.form-control:focus::-ms-value {
 .custom-select {
     display: inline-block;
     width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
+    height: 45px;
     padding: 0.375rem 1.75rem 0.375rem 0.75rem;
     font-size: 1rem;
     font-weight: 400;
