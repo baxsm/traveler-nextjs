@@ -4,7 +4,7 @@ import { teamData } from './_data/TeamData'
 
 export default function Team() {
     const styles = {
-        wrapper: 'container-fluid py-5',
+        wrapper: 'container-fluid',
         container: 'container pt-5 pb-3',
         headerWrapper: 'text-center mb-3 pb-3',
         headerTitle: 'text-primaryColor uppercase tracking-[5px]',
@@ -33,16 +33,16 @@ export default function Team() {
                                             <Image className={styles.teamImg} width={1000} height={1000} src={item.imageSrc} alt="" />
                                             <div className="team-social">
                                                 <a className={styles.buttonContainer} target="_blank" href="https://twitter.com">
-                                                    <i className="fab ri-twitter-fill" />
+                                                    <i className="fab ri-twitter-fill px-[10px]" />
                                                 </a>
                                                 <a className={styles.buttonContainer} target="_blank" href="https://facebook.com">
-                                                    <i className="fab ri-facebook-fill" />
+                                                    <i className="fab ri-facebook-fill px-[10px]" />
                                                 </a>
                                                 <a className={styles.buttonContainer} target="_blank" href="https://instagram.com">
-                                                    <i className="fab ri-instagram-line" />
+                                                    <i className="fab ri-instagram-line px-[10px]" />
                                                 </a>
                                                 <a className={styles.buttonContainer} target="_blank" href="https://linkedin.com">
-                                                    <i className="fab ri-linkedin-fill" />
+                                                    <i className="fab ri-linkedin-fill px-[10px]" />
                                                 </a>
                                             </div>
                                         </div>

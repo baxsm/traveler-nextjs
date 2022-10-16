@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function About() {
 
     const styles = {
-        wrapper: 'py-[1rem] px-[10px]',
+        wrapper: 'px-[10px]',
         container: 'pt-5 grid place-items-center max-w-[540px] mx-auto my-0 bMD:max-w-[720px] bLG:max-w-[960px] bXL:max-w-[1140px]',
         mainRow: 'bLG:flex bLG:flex-row bLG:gap-[1rem]',
         imageContainer: 'mx-[1.2rem]',

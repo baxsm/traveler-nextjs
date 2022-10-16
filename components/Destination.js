@@ -5,7 +5,7 @@ import { destinationData } from './_data/DestinationData'
 export default function Destination() {
 
     const styles = {
-        wrapper: 'py-5 container-fluid',
+        wrapper: 'container-fluid',
         container: 'container pt-5 pb-3',
         headerContainer: 'text-center mb-3 pb-3',
         title: 'text-primaryColor uppercase tracking-[5px]',

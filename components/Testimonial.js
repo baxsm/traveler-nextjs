@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from "swiper"
@@ -8,18 +8,14 @@ import { testimonialData } from './_data/TestimonialData'
 export default function Testimonial() {
 
     const styles = {
-        wrapper: 'container-fluid py-5',
+        wrapper: 'container-fluid',
         container: 'container py-5',
         headerContainer: 'text-center mb-3 pb-3',
         headerTitle: 'text-primaryColor uppercase tracking-[5px]',
-        cardContainer: 'text-center pb-4',
-        image: 'img-fluid mx-auto w-full h-full',
-        contentContainer: 'testimonial-text bg-[#fff] p-4 mt-[-3rem]',
         carouselContainer: 'testimonial-carousel testimonialCaoursel'
     }
 
     SwiperCore.use([Autoplay])
-
 
     return (
         <div className={styles.wrapper}>
@@ -32,8 +28,7 @@ export default function Testimonial() {
                     centeredSlides={true}
                     grabCursor={true}
                     spaceBetween={30}
-                    slidesPerView={1}
-                    loop={true}
+                    slidesPerView="auto"
                     pagination={{
                         clickable: true,
                         dynamicBullets: true,
@@ -42,11 +37,12 @@ export default function Testimonial() {
                     autoplay={{
                         delay: 8000
                     }}
-                    breakpoints= {{
+                    breakpoints={{
                         992: {
                             slidesPerView: 3,
                         },
                     }}
+                    loop={true}
                     modules={[Pagination]}
                     className={styles.carouselContainer}
                 >
@@ -54,19 +50,31 @@ export default function Testimonial() {
                         testimonialData.map((item, index) => {
                             return (
                                 <SwiperSlide key={index}>
-                                    <div className={styles.cardContainer}>
-                                        <Image className={styles.image} width={100} height={100} src={item.imageSrc} />
-                                        <div className={styles.contentContainer}>
-                                            <p className="mt-5 mb-[1rem] text-[#656565]">{item.brief}</p>
-                                            <h5 className="text-truncate">{item.name}</h5>
-                                            <span className="text-[#656565]">{item.profession}</span>
-                                        </div>
-                                    </div>
+                                    <Slide item={item}/>
                                 </SwiperSlide>
                             )
                         })
                     }
                 </Swiper>
+            </div>
+        </div>
+    )
+}
+
+function Slide({ item }) {
+    const styles = {
+        cardContainer: 'text-center pb-4',
+        image: 'img-fluid mx-auto w-full h-full',
+        contentContainer: 'testimonial-text bg-[#fff] p-4 mt-[-3rem]',
+    }
+
+    return (
+        <div className={styles.cardContainer}>
+            <Image className={styles.image} width={100} height={100} src={item.imageSrc} />
+            <div className={styles.contentContainer}>
+                <p className="mt-5 mb-[1rem] text-[#656565]">{item.brief}</p>
+                <h5 className="text-truncate">{item.name}</h5>
+                <span className="text-[#656565]">{item.profession}</span>
             </div>
         </div>
     )

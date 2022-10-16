@@ -11,7 +11,7 @@ export default function BannerCarousel() {
 
     }
 
-    //SwiperCore.use([Autoplay])
+    SwiperCore.use([Autoplay])
 
     return (
         <div className={styles.wrapper}>

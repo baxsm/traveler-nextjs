@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className="container-fluid py-5">
+        <div className="container-fluid">
             <div className="container py-5">
                 <div className="text-center mb-3 pb-3">
                     <h6 className="text-primaryColor text-uppercase tracking-[5px]">Contact</h6>

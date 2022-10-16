@@ -5,7 +5,7 @@ import { blogPostData } from './_data/BlogPostData'
 export default function Blog({ isBlogDetailed }) {
 
     const styles = {
-        wrapper: 'container-fluid py-5 pt-0',
+        wrapper: 'container-fluid pt-0',
         container: 'container pt-5 pb-3',
         detailedContainer: 'container pb-3',
         headerContainer: 'text-center mb-3 pb-3',

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Registration() {
 
     const styles = {
-        wrapper: 'container-fluid bg-registration py-5 my-[90px] mx-0',
+        wrapper: 'container-fluid bg-registration my-[90px] mx-0',
         container: 'container py-5',
         mainRow: 'row align-items-center',
         leftContainer: 'col-lg-7 mb-5 mb-lg-0 px-[15px]',

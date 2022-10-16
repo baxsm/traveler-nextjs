@@ -4,7 +4,7 @@ import { servicesData } from './_data/ServicesData'
 export default function Services() {
 
     const styles = {
-        wrapper: 'container-fluid py-5',
+        wrapper: 'container-fluid',
         container: 'container pt-5 pb-3',
         header: 'text-center mb-3 pb-3',
         title: 'text-primaryColor uppercase tracking-[5px]',

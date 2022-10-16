@@ -26,10 +26,10 @@ export default function Footer() {
                             vero lorem dolor dolor</p>
                         <h6 className="text-[#fff] text-uppercase mt-4 mb-3 tracking-[5px]">Follow Us</h6>
                         <div className="d-flex justify-content-start">
-                            <a className="btn btn-outline-primary btn-square mr-2" href="#"><i className="fab ri-twitter-fill"></i></a>
-                            <a className="btn btn-outline-primary btn-square mr-2" href="#"><i className="fab ri-facebook-fill"></i></a>
-                            <a className="btn btn-outline-primary btn-square mr-2" href="#"><i className="fab ri-instagram-line"></i></a>
-                            <a className="btn btn-outline-primary btn-square" href="#"><i className="fab ri-linkedin-fill"></i></a>
+                            <a className="btn btn-outline-primary btn-square mr-2" href="#"><i className="fab ri-twitter-fill px-[10px]"></i></a>
+                            <a className="btn btn-outline-primary btn-square mr-2" href="#"><i className="fab ri-facebook-fill px-[10px]"></i></a>
+                            <a className="btn btn-outline-primary btn-square mr-2" href="#"><i className="fab ri-instagram-line px-[10px]"></i></a>
+                            <a className="btn btn-outline-primary btn-square" href="#"><i className="fab ri-linkedin-fill px-[10px]"></i></a>
                         </div>
                     </div>
                     <div className={styles.contentColumn}>
