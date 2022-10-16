@@ -6,8 +6,9 @@ export default function TopBar() {
         wrapper: 'hidden bLG:block',
         container: 'mt-[1rem] text-[#656565]',
         row: 'flex place-items-center justify-between',
-        dataContainer: 'flex justify-center text-[1rem] gap-[0.5rem]',
+        dataContainer: 'flex justify-center text-[1rem] gap-[0.5rem] pb-0',
         content: 'flex pl-[2.5rem] gap-[1rem] justify-center place-items-center',
+        contentDivider: 'pb-0',
         socialContainer: 'pr-[2.5rem]',
         socials: 'flex gap-[2rem] justify-center place-items-center',
         social: 'text-[1rem] text-primaryColor hover:text-primaryDarkColor'
