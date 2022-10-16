@@ -43,7 +43,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #F3F3F3;
+  background-color: #F3F3F3 !important;
   scroll-behavior: smooth;
   user-select: none;
 }
