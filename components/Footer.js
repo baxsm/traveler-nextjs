@@ -76,7 +76,7 @@ export default function Footer() {
             <div className="copyright-bg container-fluid bg-darkColor text-white border-top py-4 px-sm-3 px-md-5">
                 <div className="row">
                     <div className="flex place-items-center justify-center">
-                        <p className="m-0 text-white-50 mb-[1rem]">Copyright &copy; <a href="https://github.com/baxsm" target="_blank" className='text-primaryColor hover:text-primaryDarkColor'>BAXSM</a>. All Rights Reserved.</p>
+                        <p className="m-0 text-white-50 mb-[1rem]">Copyright &copy; <a href="https://github.com/baxsm" target="_blank" rel="noreferrer" className='text-primaryColor hover:text-primaryDarkColor'>BAXSM</a>. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

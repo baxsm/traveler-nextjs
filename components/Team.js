@@ -32,16 +32,16 @@ export default function Team() {
                                         <div className={styles.teamContent}>
                                             <Image className={styles.teamImg} width={1000} height={1000} src={item.imageSrc} alt="" />
                                             <div className="team-social">
-                                                <a className={styles.buttonContainer} target="_blank" href="https://twitter.com">
+                                                <a className={styles.buttonContainer} target="_blank" href="https://twitter.com" rel="noreferrer">
                                                     <i className="fab ri-twitter-fill px-[10px]" />
                                                 </a>
-                                                <a className={styles.buttonContainer} target="_blank" href="https://facebook.com">
+                                                <a className={styles.buttonContainer} target="_blank" href="https://facebook.com" rel="noreferrer">
                                                     <i className="fab ri-facebook-fill px-[10px]" />
                                                 </a>
-                                                <a className={styles.buttonContainer} target="_blank" href="https://instagram.com">
+                                                <a className={styles.buttonContainer} target="_blank" href="https://instagram.com" rel="noreferrer">
                                                     <i className="fab ri-instagram-line px-[10px]" />
                                                 </a>
-                                                <a className={styles.buttonContainer} target="_blank" href="https://linkedin.com">
+                                                <a className={styles.buttonContainer} target="_blank" href="https://linkedin.com" rel="noreferrer">
                                                     <i className="fab ri-linkedin-fill px-[10px]" />
                                                 </a>
                                             </div>
